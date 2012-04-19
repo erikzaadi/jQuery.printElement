@@ -1,4 +1,4 @@
-# jQuery Printelement
+# jQuery Printelement [![Build Status](https://secure.travis-ci.org/erikzaadi/jquery.printelement.png?branch=master)](http://travis-ci.org/erikzaadi/jquery.printelement)
 
 jQuery Print Element
 
