@@ -1,0 +1,32 @@
+{
+  "name": "jquery.printelement",
+  "title": "jQuery Printelement",
+  "description": "The best jQuery plugin ever.",
+  "version": "2.0.0",
+  "homepage": "https://github.com/erikzaadi/jQuery.printElement",
+  "author": {
+    "name": "erikzaadi",
+    "email": "erik.zaadi@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/erikzaadi/jQuery.printElement.git"
+  },
+  "bugs": {
+    "url": "https://github.com/erikzaadi/jQuery.printElement/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/erikzaadi/jQuery.printElement/blob/master/LICENSE-MIT"
+    },
+    {
+      "type": "GPL",
+      "url": "https://github.com/erikzaadi/jQuery.printElement/blob/master/LICENSE-GPL"
+    }
+  ],
+  "dependencies": {
+    "jquery": "~1.5"
+  },
+  "keywords": []
+}
