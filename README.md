@@ -1,6 +1,4 @@
-# jQuery Printelement [![Build Status](https://secure.travis-ci.org/erikzaadi/jquery.printelement.png?branch=master)](http://travis-ci.org/erikzaadi/jquery.printelement)
-
-jQuery Print Element
+# jQuery Print Element [![Build Status](https://secure.travis-ci.org/erikzaadi/jQuery.printElement.png?branch=master)](http://travis-ci.org/erikzaadi/jquery.printelement)
 
 Sends an element to print.
 
