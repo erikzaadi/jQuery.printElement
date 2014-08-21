@@ -41,8 +41,11 @@ In lieu of a formal styleguide, take care to maintain the existing coding style.
 _Also, please don't edit files in the "dist" subdirectory as they are generated via grunt. You'll find source code in the "src" subdirectory!_
 
 ## Release History
-2.0.1 : Updated project to use Grunt 0.4.x, added support for number type input fields.
-2.0 (Still in development) : Complete rewrite, support IE{9,10}.
+* 2.0.1-dev
+  * Updated project to use Grunt 0.4.x
+  * Added support for number type input fields.
+* 2.0-dev
+  * Complete rewrite, support IE{9,10}.
 
 ## License
 Copyright (c) 2012 erikzaadi  
