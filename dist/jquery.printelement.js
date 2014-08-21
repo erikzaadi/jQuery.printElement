@@ -1,7 +1,6 @@
-/*! jQuery Printelement - v2.0.0 - 2012-04-19
+/*! jQuery printElement - v2.0.1 - 2014-08-21
 * https://github.com/erikzaadi/jQuery.printElement
-* Copyright (c) 2012 erikzaadi; Licensed MIT, GPL */
-
+* Copyright (c) 2014 erikzaadi; Licensed MIT, GPL */
 (function (window, undefined) {
   var document = window.document;
   var $ = window.jQuery;
@@ -102,7 +101,7 @@
       this.setAttribute('checked', 'checked');
     });
     //simple text inputs
-    $("input[type='text']", $element).each(function () {
+    $("input[type='text'],input[type='number']", $element).each(function () {
       this.setAttribute('value', $(this).val());
     });
     $("select", $element).each(function () {

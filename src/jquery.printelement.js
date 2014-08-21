@@ -112,7 +112,7 @@
       this.setAttribute('checked', 'checked');
     });
     //simple text inputs
-    $("input[type='text']", $element).each(function () {
+    $("input[type='text'],input[type='number']", $element).each(function () {
       this.setAttribute('value', $(this).val());
     });
     $("select", $element).each(function () {
