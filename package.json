@@ -1,8 +1,8 @@
 {
-  "name": "jquery.printelement",
-  "title": "jQuery Printelement",
+  "name": "jquery.printElement",
+  "title": "jQuery printElement",
   "description": "The best jQuery plugin ever.",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "homepage": "https://github.com/erikzaadi/jQuery.printElement",
   "author": {
     "name": "erikzaadi",
@@ -28,5 +28,13 @@
   "dependencies": {
     "jquery": "~1.5"
   },
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-qunit": "^0.5.2",
+    "grunt-contrib-uglify": "^0.5.1",
+    "grunt-contrib-watch": "^0.6.1"
+  }
 }
