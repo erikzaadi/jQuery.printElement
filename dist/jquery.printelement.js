@@ -55,8 +55,7 @@
         if (opts.printMode.toLowerCase() === 'popup') {
             popupOrIframe = window.open('about:blank', 'printElementWindow', 'width=650,height=440,scrollbars=yes');
             documentToWriteTo = popupOrIframe.document;
-        }
-        else {
+        } else {
             //The random ID is to overcome a safari bug http://www.cjboco.com.sharedcopy.com/post.cfm/442dc92cd1c0ca10a5c35210b8166882.html
             var printElementID = "printElement_" + (Math.round(Math.random() * 99999)).toString();
             //Native creation of the element is faster..
@@ -87,8 +86,7 @@
     function _callPrint(element) {
         if (element && element.printPage) {
             element.printPage();
-        }
-        else {
+        } else {
             setTimeout(function () {
                 _callPrint(element);
             }, 50);
@@ -119,8 +117,7 @@
             //fix for issue 7 (http://plugins.jquery.com/node/13503 and http://github.com/erikzaadi/jQueryPlugins/issues#issue/7)
             if (this.firstChild) {
                 this.firstChild.textContent = value;
-            }
-            else {
+            } else {
                 this.innerHTML = value;
             }
         });
@@ -146,15 +143,13 @@
                     var current = opts.overrideElementCSS[x];
                     if (typeof (current) === 'string') {
                         html.push('<link type="text/css" rel="stylesheet" href="' + current + '" >');
-                    }
-                    else {
+                    } else {
                         var media = current.media || '';
                         html.push('<link type="text/css" rel="stylesheet" href="' + current.href + '" media="' + media + '" >');
                     }
                 }
             }
-        }
-        else {
+        } else {
             $("link", document).filter(function () {
                 return $(this).attr("rel").toLowerCase() === "stylesheet";
             }).each(function () {
